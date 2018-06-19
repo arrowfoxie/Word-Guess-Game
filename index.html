@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title>Word Guess Game</title>
 
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Word Guess Game</title>
+  <link href="../Word-Guess-Game/assets/css/reset.css" rel="stylesheet" type="text/css">
+  <link href="../Word-Guess-Game/assets/css/style.css" rel="stylesheet" type="text/css">
 
 </head>
+
 <body>
 
-<h1>Word Guess Game</h1>
-<button id = "button" onclick="buttonClicked()"> Click to start!</button>
-<div id="wordGuess" class="hidden">
-<p>Wins: <span id="wins"></span></p>
-<p>Current word: <span id="wordNow"></span></p>
-<p>Number of guesses remaining: <span id="guesses"></span></p>
-<p>Letters already guessed: <span id="guess"></span></p></div>
+  <h1>Word Guess Game</h1>
+  <h2>animated films</h2>
+  <button id="button" onclick="buttonClicked()"> Click to start!</button>
+  <div id="wordGuess" class="hidden">
+    <p>Wins:
+      <span id="wins"></span>
+    </p>
+    <p>Current word:
+      <span id="wordNow"></span>
+    </p>
+    <p>Number of guesses remaining:
+      <span id="guesses"></span>
+    </p>
+    <p>Letters already guessed:
+      <span id="guess"></span>
+    </p>
+  </div>
 
 
-        <script src="scripts.js"></script>
+  <script src="../Word-Guess-Game/assets/javascript/game.js"></script>
 
-    </body>
-    </html>
+</body>
+
+</html>

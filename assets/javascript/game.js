@@ -43,7 +43,7 @@ function lettersGuessed() {
 
 // letters guessed
 function guessedLetter(usersKeypress) {
-    var repeated = guessedLetters.some(function(item){
+    var repeated = guessedLetters.some(function (item) {
         return item === usersKeypress;
     })
 
@@ -98,7 +98,7 @@ function toggleGame() {
 }
 
 //show hyphens
-function showHyphens () {
+function showHyphens() {
     console.log("word", word);
     arr.length = word.length;
     arr.fill("_");
@@ -106,16 +106,16 @@ function showHyphens () {
 
 
 // reset game
-function reset () {
+function reset() {
     guessedLetters = [];
     arr = [];
     guessesLeft = 10;
 }
 
 // begin game by toggling all functions
-function 
-    begin() {
-    reset ();
+function
+begin() {
+    reset();
     randomWord();
     showHyphens();
     showWordOnScreen();
@@ -125,7 +125,7 @@ function
 }
 
 // keypress input
-document.onkeydown = function(event) {
+document.onkeydown = function (event) {
     var keyPress = String.fromCharCode(event.keyCode);
     guessedLetter(keyPress)
 }
@@ -137,5 +137,3 @@ function buttonClicked() {
     begin();
     toggleGame();
 }
-
-
