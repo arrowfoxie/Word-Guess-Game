@@ -7,3 +7,7 @@ The game functions as a hangman-type game, where a word is picked at random by t
 Users can get started by simply clicking the "Start" button, at which point a word will be picked by the computer at random and displayed on the screen in the form of hyphens. As the user presses a key, letters will be recorded and, if correct, will reveal characters in the word until the user wins or loses, depending on if they guessed all the letters correctly, or ran out of guesses.
 
 If the user wishes to continue playing after a win or lose, they can click the start button and a new word will be generated and any wins will continue to be recorded.
+
+## See It Live
+
+* [Word Guess](https://arrowfoxie.github.io/Word-Guess-Game/)
