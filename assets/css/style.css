@@ -1,3 +1,42 @@
 body {
-    text-align: center;
+	background-color: #ffc2c8;
+}
+
+.card-body {
+	margin: 0 auto;
+}
+
+.card {
+	top: 50px;
+	width: 960px;
+	margin: 0 auto;
+	box-shadow: 4px 4px 29px 0px rgba(209, 132, 141, 2);
+}
+
+.amatic {
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	font-weight: 550;
+}
+
+.seaweed {
+	font-family: 'Seaweed Script', cursive;
+}
+
+h1 {
+	margin-left: -1.8rem; 
+}
+
+.buttonTxt {
+	font-size: 30px;
+}
+
+.btn {
+	background-color: pink;
+	border-color: pink;
+	margin-left: 2rem;
+}
+
+.bolded {
+	font-weight: 600;
 }
