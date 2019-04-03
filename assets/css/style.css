@@ -7,7 +7,7 @@ body {
 }
 
 .card {
-	top: 50px;
+	top: 3rem;
 	width: 960px;
 	margin: 0 auto;
 	box-shadow: 4px 4px 29px 0px rgba(209, 132, 141, 2);
@@ -23,18 +23,20 @@ body {
 	font-family: 'Seaweed Script', cursive;
 }
 
-h1 {
-	margin-left: -1.8rem; 
+h3 {
+	margin-left: 2.3rem;
 }
 
 .buttonTxt {
-	font-size: 30px;
+	font-size: 1.8em;
+    margin-left: 1.8rem;
 }
 
 .btn {
 	background-color: pink;
 	border-color: pink;
-	margin-left: 2rem;
+    margin-left: 4.3rem;
+
 }
 
 .bolded {
