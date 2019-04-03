@@ -42,3 +42,39 @@ h3 {
 .bolded {
 	font-weight: 600;
 }
+
+
+/* Xsmall devices (portrait phones, 375px and up) */
+@media only screen and (min-width: 375px) {
+	.card {
+		width: 300px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+	.card {
+		width: 425px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.card {
+		width: 600px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.card {
+		width: 960px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.card {
+		width: 1200px;
+	}
+}
