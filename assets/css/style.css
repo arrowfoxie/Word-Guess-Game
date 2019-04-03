@@ -67,14 +67,14 @@ h3 {
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	.card {
-		width: 600px;
+		width: 650px;
 	}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 	.card {
-		width: 960px;
+		width: 900px;
 	}
 }
 
