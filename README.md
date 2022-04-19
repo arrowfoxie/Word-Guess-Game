@@ -1,6 +1,6 @@
 # Word-Guess-Game
 
-This is a project game developed as practice for learning Javascript. It contains basic functions, for loops, if/else statements, and other import aspects of Javascript
+This is a project game developed as practice for learning Javascript. It contains basic functions, for loops, if/else statements, and other important aspects of Javascript
 
 The game functions as a hangman-type game, where a word is picked at random by the computer and the user guesses by typing in letters. The game records letters guessed, number of guesses left, and wins. There is an alert that pops up in the event of a win or loss. 
 
